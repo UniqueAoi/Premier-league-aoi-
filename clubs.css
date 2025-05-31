@@ -1,0 +1,262 @@
+.club_frame
+{
+    margin-top: 15px;
+    width: 100%;
+    height: 660px;
+ 
+}
+hr{
+    width: 90%;
+  margin-left: 60px;
+}
+.club_frame1
+{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    height: 300px;
+  
+}
+.club_frame5
+{
+    margin-top: 10px;
+    width: 500px;
+    height: 100%;
+}
+.coach_frame
+{
+    display: flex;
+    margin-top: 20px;
+    width: 110%;
+    height: 300px;
+   
+}
+.coach_pic
+{
+    height:90%;
+    width: 320px;
+  
+}
+.coach_txt
+{
+    margin-top: 80px;
+    width: 300px;
+}
+.coach_pic img{
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+}
+.club_stadium
+{
+   height: 100%;
+    width: 500px;
+    border-radius: 20px;
+}
+.club_stadium img
+{
+    width: 500px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+
+.club_frame2
+{
+    margin-right: 20px;
+    width: 600px;
+   
+}
+.club_logo_frame
+{
+    
+    margin-top: 5px;
+   /* margin-left: 150px; */
+    width: 650px;
+    margin-left: 20px;
+    height: 130px;
+    display: flex;
+
+}
+.club_logo
+{
+    display: flex;
+    width:140px;
+    height: 100%;
+    justify-content: space-around;
+}
+.club_logo img
+{
+    height: 100%;
+    width:100%;
+}
+.club_header
+{
+    width: 550px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.club_header  h1
+{ 
+    align-items: center;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ font-size: 45px;
+ color: red;
+
+}
+
+
+.club_frame3
+{
+    height: 300px;
+}
+.container{
+	
+	margin-top: -35px;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery-item-inner img
+{
+	height: 100%;
+}
+ .gallery-item-inner img{
+   height: 200px;
+ }
+/*.gallery*/
+.gallery{
+	width: 100%;
+	display: block;align-self: start;		
+	height: 350px;
+   margin-top: -20px;
+    color: black;
+	padding: 100px 0;
+}
+.gallery .gallery-filter{
+	padding: 0 15px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+    
+}
+.gallery .gallery-filter .filter-item{
+	color: #000000;
+   
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+	font-size:30px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin:0 10px;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	line-height: 1.2;
+	transition: all 0.3s ease;
+}
+
+.gallery .gallery-item{
+	width: calc(100% / 3);
+	padding: 15px;
+}
+.gallery .gallery-filter .filter-item.active
+{
+  color: rgb(255, 0, 0);
+}
+.gallery .gallery-item.hide
+{
+	display: none;
+}
+.gallery .gallery-item.show{
+    animation: galleryAni 0.5s;
+}
+
+@keyframes galleryAni
+{
+	0%{
+		opacity: 0;
+	}
+	100%{
+            opacity:1;
+	}
+}
+
+.club_about p 
+{
+    
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  color: #000000;
+  font-style: normal;
+  font-size: 17px;
+ font-weight: 500;
+
+}
+.tag-list
+{
+    margin: 20px;
+    
+    padding-inline: 0;
+    list-style: none;
+}
+.tag-list li{
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 200px;
+    padding: 1rem;
+     /* background-color: rgb(0, 0, 0); */
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem var(--crl-primary-400);
+}
+.scroller {
+    overflow: hidden;
+    margin-left: 150px;
+    max-width: 80%;
+}
+.scroller_inner
+{
+    padding-block: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+}
+.scroller[data-animated="true"]
+{
+   
+    overflow: hidden;
+    /* -webkit-mask: linear-gradient(40deg,transparent,white 20%,white 20%,transparent);
+     mask: linear-gradient(40deg,transparent,rgb(70, 70, 70)); */
+}
+.scroller[data-animated="true"] .scroller_inner
+{
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration,40s ) var(--_animation-direction,forwards) linear infinite;
+}
+.scroller[data-direction="right"]
+{
+    --_animation-direction:reverse;
+}
+.scroller[data-direction="left"]
+{
+    --_animation-direction:forwards;
+}
+@keyframes scroll 
+{
+    to{
+            transform: translate(calc(-50% - 0.5rem));
+    }
+}
+.test 
+{
+    background: red !important;
+}

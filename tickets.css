@@ -1,0 +1,176 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        }
+        .header {
+            height: 100px;
+          
+            color: white;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .header h1,.ticket_head h1 {
+            margin: 0;
+             font-family: "Zain", sans-serif;
+            font-weight: 600;
+              font-style: italic;
+           font-size: 60px;
+        }
+        .header img {
+            height: 80px;
+            width: 70px;
+          
+        }
+        .team_img
+        {
+            width: 70px;
+            margin-top: 100px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content p ,.ticket_head p,.ticket h1,.ticket p{
+            margin: 10px 0;
+            
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  color: #000000;
+  font-style: normal;
+  font-size: 17px;
+ font-weight: 500;
+
+        }
+        .buttons{
+             display: flex;
+             justify-content: space-around;
+        }
+        /* From Uiverse.io by Creatlydev */ 
+.button {
+  line-height: 1;
+  text-decoration: none;
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: red;
+  color: #fff;
+  border-radius: 10rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  padding-left: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background-color 0.3s;
+}
+
+.button__icon-wrapper {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  color: var(--clr);
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.button:hover {
+  background-color: #000;
+}
+
+.button:hover .button__icon-wrapper {
+  color: #000;
+}
+
+.button__icon-svg--copy {
+  position: absolute;
+  transform: translate(-150%, 150%);
+}
+
+.button:hover .button__icon-svg:first-child {
+  transition: transform 0.3s ease-in-out;
+  transform: translate(150%, -150%);
+}
+
+.button:hover .button__icon-svg--copy {
+  transition: transform 0.3s ease-in-out 0.1s;
+  transform: translate(0);
+}
+.ticket_head
+{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.team-container {
+            margin-top: 30px;
+            margin-left: 120px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 1000px;
+        }
+        .team {
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            
+        }
+        .team img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .team span {
+            font-weight: bold;
+            color: #333;
+        }
+       
+  .ticket 
+  {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .ticket h1
+  {
+    text-align: center;
+    align-items: center;
+    font-size: 33px;
+  }
+  .ticket p 
+  {
+    font-size: 25px;
+    color: rgb(82, 71, 71);
+  }
+  .ticket a{
+    color: blue;
+  }
+  .ticket_head
+  {
+    margin-left: 50px;
+  }
+  

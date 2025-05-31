@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Patua+One&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link rel="icon" href="pm_icon.ico">
+<link rel="stylesheet" href="premier_league.css">
+<link rel="stylesheet" href="tickets.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Chewy&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Chewy&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Monofett&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon" href="../pm_img_vdo/pm_icon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Chewy&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Monofett&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
+	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Chewy&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Monofett&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&family=Teko:wght@300..700&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Anton+SC&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bangers&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bowlby+One+SC&family=Charm:wght@400;700&family=Chewy&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delius&family=Eagle+Lake&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Meera+Inimai&family=Mochiy+Pop+P+One&family=Monofett&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Patua+One&family=Quicksand:wght@300..700&family=Raleway:wght@100..900&family=Rampart+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sriracha&family=Teko:wght@300..700&family=Vast+Shadow&family=WDXL+Lubrifont+TC&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body style="overflow-x :hidden;">
+      <!-- first_fram section -->
+    <div class="first_frame">
+        <div class="first_nav">
+      
+        
+        <div class="club">
+            <a href="#arsenal"><img src="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png" alt="aresenal"></a>
+        </div>
+        <div class="club">
+           <a href="#astonvilla"><img src="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png" alt="astonvilla"></a> 
+        </div>
+        <div class="club">
+           <a href="#bournmouth"><img src="https://resources.premierleague.com/premierleague/badges/50/t91@x2.png" alt="bournmount"></a> 
+        </div>
+        <div class="club">
+        <a href="#brentford"><img src="https://resources.premierleague.com/premierleague/badges/50/t94@x2.png" alt="brentford"></a>
+        </div>
+        <div class="club">
+            <a href="#brighton"><img src="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png" alt="brighton"></a>
+        </div>
+        <div class="club">
+          <a href="#chelsea"> <img src="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png" alt="chelsea"></a> 
+        </div>
+        <div class="club">
+            <a href="#crystal_palace"><img src="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png" alt="crystal_palace"></a>
+        </div>
+        <div class="club">
+            <a href="#everton"><img src="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png" alt="everton"></a>
+        </div>
+        <div class="club">
+           <a href="#fulham"> <img src="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png"alt="fulham"></a>
+        </div>
+        <div class="club">
+          <a href="#ipswich"><img src="https://resources.premierleague.com/premierleague/badges/50/t40@x2.png" alt="ipswich"></a>  
+        </div>
+        <div class="club">
+           <a href="#leicester"></a> <img src="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png" alt="leicester">
+        </div>
+        <div class="club">
+           <a href="#liverpool"> <img src="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png" alt="liverpool"></a>
+        </div>
+        <div class="club">
+           <a href="#manchester_city"><img src="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png" alt="manc"></a> 
+        </div>
+        <div class="club">
+           <a href="#manchester_united"> <img src="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png" alt="manu"></a>
+        </div>
+        <div class="club">
+           <a href="#newcastle"><img src="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png" alt="newcastle"></a> 
+        </div>
+        <div class="club">
+            <a href="#nor"><img src="https://resources.premierleague.com/premierleague/badges/50/t17@x2.png" alt="nor"></a>
+        </div>
+        <div class="club">
+            <a href="#south"><img src="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png" alt="south"></a>
+        </div>
+        <div class="club">
+            <a href="#sup"><img src="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png" alt="sup"></a>
+        </div>
+        <div class="club">
+           <a href="#westham"><img src="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png" alt="westham"></a> 
+        </div>
+        <div class="club">
+           <a href="#wolve"><img src="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png" alt="wolve"></a> 
+        </div>
+        </div>
+    </div>
+
+      <!-- second frame section -->
+
+    <div class="second_frame">
+        <div class="second_nav">
+            <div class="logo">
+
+                <img src="https://www.premierleague.com/resources/rebrand/v7.153.68/i/elements/pl-main-logo.png" alt="">
+            </div>
+            <div class="second_txt">
+               <a href="index.html"><button id="btn1"> <h1> Premier League</h1></button></a></a> 
+            </div>
+            <div class="second_txt">
+                <a href="clubs.html"><button id="btn1"> <h1> Clubs</h1></button></a>
+            </div>
+            <div class="second_txt">
+               <a href="tickets.html"><button id="btn1"><h1> Tickets</h1></button> </a>
+            </div>
+            <!-- <div class="second_txt">
+              <button id="btn1"><h1> About</h1></button>  
+            </div> -->
+            
+<div class="clock_main">
+<div class="clock_container">
+  <span id="hours">00</span>
+  <span>:</span>
+  <span id="minutes">00</span>
+  <span>:</span>
+  <span id="seconds">00</span>
+  <span id="session">AM</span>
+</div>
+</div>
+            
+               
+          
+<button class="btn">
+    <a href="#" class="nav-link "data-bs-target="#login" data-bs-toggle="modal" style="color: white;"> Sign in</a>
+  </button>  
+
+            <div class="modal" id="login" >
+                <div class="modal-dialog">     
+  
+ <div class="form-container">
+  <p class="title">Create account</p>
+  <p class="sub-title">Let's get statred with your 30 days free trial</p>
+  <form class="form">
+    <input type="text" class="input" placeholder="Name">
+    <input type="email" class="input" placeholder="Email">
+    <input type="password" class="input" placeholder="Password">
+    <button class="form-btn">Create account</button>
+  </form>
+  <p class="sign-up-label">
+    Already have an account?<span class="sign-up-link">Log in</span>
+  </p>
+  <div class="buttons-container">
+    <div class="apple-login-button">
+      <svg stroke="currentColor" fill="currentColor" stroke-width="0" class="apple-icon" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+        <path d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z"></path>
+      </svg>
+      <span>Sign up with Apple</span>
+    </div>
+    <div class="google-login-button">
+      <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" x="0px" y="0px" class="google-icon" viewBox="0 0 48 48" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12
+c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24
+c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path>
+        <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657
+C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path>
+        <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36
+c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path>
+        <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571
+c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
+      </svg>
+      <span>Sign up with Google</span>
+    </div>
+  </div>
+</div>
+ </div>
+
+</div>
+</div>
+</div>
+
+ 
+<div class="ticket_head" > 
+  <h1>Tickets – How and where to buy</h1>
+
+  <p>If you are interested in attending a Premier League match, we recommended following the links below, which will take you to buy tickets directly from Premier League Clubs. Further guidance is included below.
+</p>
+<p>If you buy from unofficial sources, you run the risk of your ticket being voided, and you will not be able to access the match. See ‘Safe ticket buying’ above for more details.</p>
+</div>
+<div class="team-container">
+       <a href="#arsenal"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png" alt="Arsenal"><span>ARS</span></div></a> 
+        <a href="#astonvilla"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png" alt="Aston Villa"><span>AVL</span></div></a>
+        <a href="#bournmouth"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t91@x2.png" alt="Bournemouth"><span>BOU</span></div></a>
+        <a href="#brentford"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t94@x2.png" alt="Brentford"><span>BRE</span></div></a>
+        <a href="#brighton"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png" alt="Brighton"><span>BHA</span></div></a>
+        <a href="#chelsea"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png" alt="Chelsea"><span>CHE</span></div></a>
+        <a href="#crystal_palace"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png" alt="Crystal Palace"><span>CRY</span></div></a>
+        <a href="#everton"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png" alt="Everton"><span>EVE</span></div></a>
+        <a href="#fulham"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png" alt="Fulham"><span>FUL</span></div></a>
+        <a href="#ipswich"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t40@x2.png" alt="Ipswich"><span>IPS</span></div></a>
+        <a href="#leicester"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png" alt="Leicester"><span>LEI</span></div></a>
+        <a href="#liverpool"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png" alt="Liverpool"><span>LIV</span></div></a>
+        <a href="#manchester_city"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png" alt="Manchester City"><span>MCI</span></div></a>
+        <a href="#manchester_united"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png" alt="Manchester United"><span>MUN</span></div></a>
+        <a href="#newcastle"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png" alt="Newcastle"><span>NEW</span></div></a>
+        <a href="#nor"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t17@x2.png" alt="Nottingham Forest"><span>NFO</span></div></a>
+        <a href="#south"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png" alt="Southampton"><span>SOU</span></div></a>
+        <a href="#sup"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png" alt="Tottenham"><span>TOT</span></div></a>
+        <a href="#westham"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png" alt="West Ham"><span>WHU</span></div></a>
+        <a href="#wolve"><div class="team"><img src="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png" alt="Wolves"><span>WOL</span></div></a>
+    </div>
+
+
+<!-- arsenal -->
+<div class="container" data-aos="fade-up" data-aos-duration="2000" id="arsenal">
+        <div class="header" style="background-color: red;">
+           <h1>Arsenal</h1>
+            <div class="team_img"> <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg" alt="Arsenal Logo"></div>
+           
+        </div>
+        <div class="content">
+            <p>Tickets for Premier League matches at Emirates Stadium for Arsenal fans are generally sold to members only.</p>
+            <p>These will go on sale to Silver Members two calendar months prior to each home fixture. Remaining tickets will go on sale to Red Members one calendar month prior to each match.</p>
+            <p>For more information, use the Arsenal club website links below.</p>
+        </div>
+        <div class="buttons">
+          
+<button href="#" class="button" style="--clr: #7808d0">
+  <span class="button__icon-wrapper">
+    <svg
+      viewBox="0 0 14 15"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="button__icon-svg"
+      width="10"
+    >
+      <path
+        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+        fill="currentColor"
+      ></path>
+    </svg>
+
+    <svg
+      viewBox="0 0 14 15"
+      fill="none"
+      width="10"
+      xmlns="http://www.w3.org/2000/svg"
+      class="button__icon-svg button__icon-svg--copy"
+    >
+      <path
+        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  </span>
+  Club Tickets
+</button>
+
+<button href="#" class="button" style="--clr: #7808d0">
+  <span class="button__icon-wrapper">
+    <svg
+      viewBox="0 0 14 15"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="button__icon-svg"
+      width="10"
+    >
+      <path
+        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+        fill="currentColor"
+      ></path>
+    </svg>
+
+    <svg
+      viewBox="0 0 14 15"
+      fill="none"
+      width="10"
+      xmlns="http://www.w3.org/2000/svg"
+      class="button__icon-svg button__icon-svg--copy"
+    >
+      <path
+        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  </span>
+  Club Memberships
+</button>
+   </div>
+
+   <div class="ticket">
+    <div class="match">
+         <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+     <div class="match">
+      <img src="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png" alt=""> vs
+      <img src="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png" alt="">
+     </div>
+    </div>
+    <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 7619 5000 <br>
+                International: +44 (0)20 7649 9003
+               </p>
+               
+       
+    </div>
+   
+    <div class="ticket_prices">
+       <h1>Ticket Prices</h1>
+       <p>Upper Centre - £141.00</p>
+       <p>Upper Centre Back - £106.80</p>
+       <p>Upper Behind Goal - £100.80	</p>
+    </div>
+    
+   </div>
+    </div>
+
+   <!-- aston-villa -->
+    <div class="container" data-aos="fade-up" data-aos-duration="2000" id="astonvilla">
+    <div class="header" style="background-color:  rgb(119, 0, 60)";>
+        <h1>Aston Villa</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png" alt="Aston Villa Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Villa Park for Aston Villa fans are generally sold through official membership schemes.</p>
+        <p>Season ticket holders and members usually get priority access before general sale tickets become available.</p>
+        <p>For more information, visit the Aston Villa club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+
+           <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png" alt="">
+            </div>
+        </div>
+          <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £120.00</p>
+            <p>Upper Centre Back - £95.00</p>
+            <p>Upper Behind Goal - £85.00</p>
+        </div>
+    </div>
+</div>    
+  
+<!-- bournmount -->
+<div class="container" data-aos="fade-up" data-aos-duration="2000" id="bournmouth">
+    <div class="header" style="background-color: rgb(200, 16, 46);">
+        <h1>Bournemouth</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t91@x2.png" alt="Bournemouth Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Vitality Stadium for Bournemouth fans are available through official club channels.</p>
+        <p>Season ticket holders and members typically receive priority before general sale tickets are released.</p>
+        <p>For more details, visit the Bournemouth club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+             <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t91@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t92@x2.png" alt="">
+            </div>
+        </div>
+        <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8519 5459 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £95.00</p>
+            <p>Upper Centre Back - £80.00</p>
+            <p>Upper Behind Goal - £70.00</p>
+        </div>
+    </div>
+</div>
+    <!-- brentford -->
+     <div class="container" data-aos="fade-up" data-aos-duration="2000" id="brentford">
+    <div class="header" style="background-color: rgb(237, 28, 36);">
+        <h1>Brentford</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t94@x2.png" alt="Brentford Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Gtech Community Stadium for Brentford fans are primarily available through official club channels.</p>
+        <p>Season ticket holders and members are usually given priority access before general sale tickets open.</p>
+        <p>For more details, visit the Brentford club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+            <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t94@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t95@x2.png" alt="">
+            </div>
+        </div>
+         <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £85.00</p>
+            <p>Upper Centre Back - £75.00</p>
+            <p>Upper Behind Goal - £65.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- brighton -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="brighton">
+    <div class="header" style="background-color: rgb(0, 87, 184);">
+        <h1>Brighton & Hove Albion</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png" alt="Brighton Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at the Amex Stadium for Brighton & Hove Albion fans are primarily available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are made available.</p>
+        <p>For more information, visit the Brighton club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+           <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+
+
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t37@x2.png" alt="">
+            </div>
+        </div>
+       <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £100.00</p>
+            <p>Upper Centre Back - £85.00</p>
+            <p>Upper Behind Goal - £75.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- chelsea -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="chelsea">
+    <div class="header" style="background-color: rgb(3, 70, 148);">
+        <h1>Chelsea</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png" alt="Chelsea Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Stamford Bridge for Chelsea fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Chelsea club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+         <p>28-8-25(Saturday)</p>
+       <p>9:00 pm </p>
+
+
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t9@x2.png" alt="">
+            </div>
+        </div>
+        <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 1319 6450 <br>
+                International: +44 (0)44 7589 9843
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £120.00</p>
+            <p>Upper Centre Back - £105.00</p>
+            <p>Upper Behind Goal - £90.00</p>
+        </div>
+    </div>
+</div>
+<!-- crystal palace -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="crystal_palace">
+    <div class="header" style="background-color: rgb(0, 48, 135);">
+        <h1>Crystal Palace</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png" alt="Crystal Palace Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Selhurst Park for Crystal Palace fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Crystal Palace club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+          <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+
+
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png" alt="">
+            </div>
+        </div>
+       <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 7914 5460 <br>
+                International: +44 (0)64 7649 9492
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £110.00</p>
+            <p>Upper Centre Back - £90.00</p>
+            <p>Upper Behind Goal - £80.00</p>
+        </div>
+    </div>
+</div>
+<!-- everton -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="everton">
+    <div class="header" style="background-color: rgb(39, 116, 174);">
+        <h1>Everton</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png" alt="Everton Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Goodison Park for Everton fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Everton club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+          <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png" alt="">
+            </div>
+        </div>
+     <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £95.00</p>
+            <p>Upper Centre Back - £80.00</p>
+            <p>Upper Behind Goal - £70.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- fulham -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="fulham">
+    <div class="header" style="background-color: rgb(255, 255, 255); border: 2px solid black;">
+        <h1 style="color: black;">Fulham</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png" alt="Fulham Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Craven Cottage for Fulham fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Fulham club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+           <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t55@x2.png" alt="">
+            </div>
+        </div>
+        <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £90.00</p>
+            <p>Upper Centre Back - £75.00</p>
+            <p>Upper Behind Goal - £65.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- ipswich -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="ipswich">
+    <div class="header" style="background-color: rgb(0, 51, 160);">
+        <h1>Ipswich Town</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t40@x2.png" alt="Ipswich Town Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Portman Road for Ipswich Town fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Ipswich Town club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+          <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+
+
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t40@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png" alt="">
+            </div>
+        </div>
+         <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £85.00</p>
+            <p>Upper Centre Back - £70.00</p>
+            <p>Upper Behind Goal - £60.00</p>
+        </div>
+    </div>
+</div>
+<!-- leicestercity -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="leicester">
+    <div class="header" style="background-color: rgb(0, 83, 160);">
+        <h1>Leicester City</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png" alt="Leicester City Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at King Power Stadium for Leicester City fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Leicester City club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+          <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png" alt="">
+            </div>
+        </div>
+        <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £105.00</p>
+            <p>Upper Centre Back - £85.00</p>
+            <p>Upper Behind Goal - £75.00</p>
+        </div>
+    </div>
+</div>
+<!-- liverpool -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="liverpool">
+    <div class="header" style="background-color: rgb(200, 16, 46);">
+        <h1>Liverpool</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png" alt="Liverpool Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Anfield for Liverpool fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Liverpool club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+          <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png" alt="">
+            </div>
+        </div>
+       
+ <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £125.00</p>
+            <p>Upper Centre Back - £105.00</p>
+            <p>Upper Behind Goal - £95.00</p>
+        </div>
+    </div>
+</div>
+<!-- manchester-city -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="manchester_city">
+    <div class="header" style="background-color: rgb(108, 171, 221);">
+        <h1>Manchester City</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png" alt="Manchester City Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Etihad Stadium for Manchester City fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Manchester City club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+         <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t44@x2.png" alt="">
+            </div>
+        </div>
+        <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £130.00</p>
+            <p>Upper Centre Back - £110.00</p>
+            <p>Upper Behind Goal - £100.00</p>
+        </div>
+    </div>
+</div>
+<!-- manchester-united -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="manchester_united">
+    <div class="header" style="background-color: rgb(200, 16, 46);">
+        <h1>Manchester United</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png" alt="Manchester United Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Old Trafford for Manchester United fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Manchester United club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+            <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t2@x2.png" alt="">
+            </div>
+        </div>
+       <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £130.00</p>
+            <p>Upper Centre Back - £110.00</p>
+            <p>Upper Behind Goal - £95.00</p>
+        </div>
+    </div>
+</div>
+<!-- newcastle -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="newcastle">
+    <div class="header" style="background-color: rgb(0, 0, 0); color: white;">
+        <h1>Newcastle United</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png" alt="Newcastle United Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at St. James' Park for Newcastle United fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Newcastle United club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+           <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t5@x2.png" alt="">
+            </div>
+        </div>
+        <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £120.00</p>
+            <p>Upper Centre Back - £100.00</p>
+            <p>Upper Behind Goal - £85.00</p>
+        </div>
+    </div>
+</div>
+<!-- nottingham -->
+
+<div class="container" data-aos="fade-up" data-aos-duration="2000" id="nor">
+    <div class="header" style="background-color: rgb(205, 32, 44);">
+        <h1>Nottingham Forest</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t17@x2.png" alt="Nottingham Forest Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at City Ground for Nottingham Forest fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Nottingham Forest club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+            
+<p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t17@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png" alt="">
+            </div>
+        </div>
+       <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £110.00</p>
+            <p>Upper Centre Back - £90.00</p>
+            <p>Upper Behind Goal - £80.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- Southampton -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="south">
+    <div class="header" style="background-color: rgb(212, 0, 0);">
+        <h1>Southampton</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png" alt="Southampton Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at St Mary's Stadium for Southampton fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Southampton club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+            <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t19@x2.png" alt="">
+            </div>
+        </div>
+       <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £100.00</p>
+            <p>Upper Centre Back - £85.00</p>
+            <p>Upper Behind Goal - £75.00</p>
+        </div>
+    </div>
+</div>
+<!-- tottenham-hotspur -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="sup">
+    <div class="header" style="background-color: rgb(19, 34, 87);">
+        <h1>Tottenham Hotspur</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png" alt="Tottenham Hotspur Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Tottenham Hotspur Stadium for Spurs fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Tottenham Hotspur club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+           <p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t17@x2.png" alt="">
+            </div>
+            </div>
+        
+ <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £120.00</p>
+            <p>Upper Centre Back - £100.00</p>
+            <p>Upper Behind Goal - £85.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- westham -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="westham">
+    <div class="header" style="background-color: rgb(122, 44, 138);">
+        <h1>West Ham United</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png" alt="West Ham United Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at London Stadium for West Ham United fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the West Ham United club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+           
+<p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t22@x2.png" alt="">
+            </div>
+        </div>
+         <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £115.00</p>
+            <p>Upper Centre Back - £95.00</p>
+            <p>Upper Behind Goal - £85.00</p>
+        </div>
+    </div>
+</div>
+<!-- wolves -->
+ <div class="container" data-aos="fade-up" data-aos-duration="2000" id="wolve">
+    <div class="header" style="background-color: rgb(253, 185, 19);">
+        <h1>Wolverhampton Wanderers</h1>
+        <div class="team_img"> 
+            <img src="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png" alt="Wolves Logo">
+        </div>
+    </div>
+    <div class="content">
+        <p>Tickets for Premier League matches at Molineux Stadium for Wolves fans are available through official club channels.</p>
+        <p>Season ticket holders and members receive priority access before general sale tickets are released.</p>
+        <p>For more details, visit the Wolverhampton Wanderers club website using the links below.</p>
+    </div>
+    <div class="buttons">
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Tickets
+        </button>
+        <button href="#" class="button" style="--clr: #7808d0">
+            <span class="button__icon-wrapper">
+                <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg button__icon-svg--copy">
+                    <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor"></path>
+                </svg>
+            </span>
+            Club Memberships
+        </button>
+    </div>
+    <div class="ticket">
+        <div class="match">
+           
+<p>28-8-25(Saturday)</p>
+       <p>9:30 pm </p>
+            <div class="match">
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png" alt=""> vs
+                <img src="https://resources.premierleague.com/premierleague/badges/50/t40@x2.png" alt="">
+            </div>
+        </div>
+      
+ <div class="ph">
+      
+               <p>
+                <h1>Ticket phone sales</h1><br>
+                UK: 020 8919 5450 <br>
+                International: +44 (0)24 7689 9893
+               </p>
+            </div>
+        <div class="ticket_prices">
+            <h1>Ticket Prices</h1>
+            <p>Upper Centre - £95.00</p>
+            <p>Upper Centre Back - £80.00</p>
+            <p>Upper Behind Goal - £70.00</p>
+        </div>
+    </div>
+</div>
+<!-- footer section -->
+ <footer>
+    <div class="footer-container">
+      <!-- About Section -->
+      <div class="footer-about">
+        <h2>About Us</h2>
+        <p>We are always striving to comprehensively share information related to players and teams with you.</p>
+     
+      </div>
+  
+     
+      <!-- Newsletter Subscription Section -->
+      <div class="footer-newsletter" style="margin-left: 100px;">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form>
+          <input type="email" placeholder="Your email address">
+          <button type="submit">Subscribe</button>
+        </form>
+        <p>Get the latest updates and offers.</p>
+      </div>
+  
+      <!-- Social Media Section -->
+      <div class="footer-social-media">
+        <h2>Follow Us</h2>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    
+    
+    </div>
+
+    
+    <!-- Footer Bottom Section -->
+    <div class="footer-bottom">
+      <p>© 2025 Aoi. All Rights Reserved.</p>
+      
+    </div>
+  </footer>
+<script>
+  $('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})
+
+</script>
+<!-- script for clock -->
+<script>
+function displayTime()
+{
+  var dateTime = new Date();
+  var hrs = dateTime.getHours();
+  var min = dateTime.getMinutes();
+  var sec = dateTime.getSeconds();
+  var session = document.getElementById('session');
+
+      if(hrs >= 12)
+    {
+  session.innerHTML = 'PM';
+    }
+    else
+    {
+       session.innerHTML = 'AM';
+    }
+if (hrs >12)
+{
+  hrs = hrs-12;
+}
+  document.getElementById('hours').innerHTML=hrs;
+  document.getElementById('minutes').innerHTML=min;
+  document.getElementById('seconds').innerHTML=sec;
+}
+
+setInterval(displayTime,10);
+</script>
+ <script>
+            AOS.init();     
+           </script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
